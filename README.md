@@ -11,6 +11,9 @@ Game is still under development, lots of things to do. Currently only local mult
 ### Screenshot
 ![Screenshot](https://i.imgur.com/zTYivVG.png)
 
+### Controls
+Click on the pawn you want to move, then click on an empty field.
+
 ### build
 ```
 ./gradlew.bat build
