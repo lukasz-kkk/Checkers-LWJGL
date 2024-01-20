@@ -4,8 +4,8 @@
 Game is still under development, lots of things to do. Currently only local multiplayer is available.
 
 ### To-do
-- Multiplayer
-- Player vs CPU
+- Multiplayer mode
+- Player vs CPU mode
 - Some UI changes
 
 ### Screenshot
