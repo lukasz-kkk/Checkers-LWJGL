@@ -70,13 +70,13 @@ public class Game {
     }
 
     private void printTime() {
-        textRenderer.render(shader, 6, 29, "PLAYER 1");
-        textRenderer.render(shader, 8, 29, "GAME TIME:");
-        textRenderer.render(shader, 10, 29, getWhiteTime());
+        textRenderer.render(shader, 4, 20, "PLAYER 1");
+        textRenderer.render(shader, 6, 20, "GAME TIME:");
+        textRenderer.render(shader, 8, 20, getWhiteTime());
 
-        textRenderer.render(shader, 6, -17, "PLAYER 2");
-        textRenderer.render(shader, 8, -17, "GAME TIME:");
-        textRenderer.render(shader, 10, -17, getBlackTime());
+        textRenderer.render(shader, 4, -11, "PLAYER 2");
+        textRenderer.render(shader, 6, -11, "GAME TIME:");
+        textRenderer.render(shader, 8, -11, getBlackTime());
     }
 
     public int processLogic() {

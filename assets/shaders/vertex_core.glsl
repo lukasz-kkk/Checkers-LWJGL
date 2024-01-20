@@ -27,8 +27,8 @@ void main(){
     if (OBJECT == 4){ // TEXT
         v_TexCoord = vec2(texCoord.x / 30 + 0.005 + 0.02662 * LETTER, texCoord.y);
         gl_Position = vec4(
-        v_pos.x + LETTER_POSITION - float(POSITION_X)/20,
+        v_pos.x + (LETTER_POSITION * 0.7) - float(POSITION_X)/20,
         v_pos.y - float(POSITION_Y)/10,
-        0.0, 1.5);
+        0.0, 1.0);
     }
 }

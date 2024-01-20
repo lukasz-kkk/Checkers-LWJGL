@@ -64,7 +64,7 @@ public class Menu {
     public void renderWinner(int winner){
         t_menu_reset.bind(8);
         object.render();
-        textRenderer.render(shader, -1, 8, String.format("PLAYER %d WON ", winner));
+        textRenderer.render(shader, -1, 6, String.format("PLAYER %d WON ", winner));
     }
 
 
